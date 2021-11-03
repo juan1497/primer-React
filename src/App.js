@@ -1,25 +1,29 @@
-import logo from './logo.svg';
+import React, {useState}  from 'react';
 import './App.css';
+import Form from"./components/Form" 
+import Profile from"./components/Profile" 
+// function handleClick(e){
+//   e.preventDefault();
+//   console.log("has echo click")
+// }
+function App(){
+  // const [count,setCount]=useState(0)
+  const [profiles, setProfiles] = useState([]);
+  const addProfile = (profile) => {
+    const newProfiles = [ ...profiles, profile ];
+    setProfiles(newProfiles);
+    console.log(profiles)
+  };
+  return(
+   <div className="App">
+      <h1>Listado de perfiles</h1>
+      <Form addProfile={addProfile} />
+      <Profile profiles={profiles}/>
+    {/* <p>has clickado {count} veces</p>
+    <button onClick={()=>setCount(count-1)}>click</button>
+    <button onClick={()=>setCount(count+1)}>click</button> */}
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+  </div>
+  )
 }
-
 export default App;
