@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/primer-React/static/css/main.a617e044.chunk.css",
+    "main.js": "/primer-React/static/js/main.8530267f.chunk.js",
+    "main.js.map": "/primer-React/static/js/main.8530267f.chunk.js.map",
+    "runtime-main.js": "/primer-React/static/js/runtime-main.ccde4734.js",
+    "runtime-main.js.map": "/primer-React/static/js/runtime-main.ccde4734.js.map",
+    "static/js/2.fd683760.chunk.js": "/primer-React/static/js/2.fd683760.chunk.js",
+    "static/js/2.fd683760.chunk.js.map": "/primer-React/static/js/2.fd683760.chunk.js.map",
+    "static/js/3.f77e9481.chunk.js": "/primer-React/static/js/3.f77e9481.chunk.js",
+    "static/js/3.f77e9481.chunk.js.map": "/primer-React/static/js/3.f77e9481.chunk.js.map",
+    "index.html": "/primer-React/index.html",
+    "static/css/main.a617e044.chunk.css.map": "/primer-React/static/css/main.a617e044.chunk.css.map",
+    "static/js/2.fd683760.chunk.js.LICENSE.txt": "/primer-React/static/js/2.fd683760.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ccde4734.js",
+    "static/js/2.fd683760.chunk.js",
+    "static/css/main.a617e044.chunk.css",
+    "static/js/main.8530267f.chunk.js"
+  ]
+}
